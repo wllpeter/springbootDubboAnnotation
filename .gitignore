@@ -2,7 +2,9 @@ springbootDobboAnnotation/consumer/\.classpath
 springbootDobboAnnotation/consumer/\.project
 springbootDobboAnnotation/consumer/\.settings/
 springbootDobboAnnotation/consumer/target/
+springbootDobboAnnotation/consumer/bin/
 springbootDobboAnnotation/provider/\.classpath
 springbootDobboAnnotation/provider/\.project
 springbootDobboAnnotation/provider/\.settings/
 springbootDobboAnnotation/provider/target/
+springbootDobboAnnotation/provider/bin/
