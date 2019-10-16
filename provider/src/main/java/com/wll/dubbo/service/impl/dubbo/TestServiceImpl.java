@@ -1,4 +1,4 @@
-package com.wll.dubbo.service;
+package com.wll.dubbo.service.impl.dubbo;
 
 import com.example.dubbointerface.dto.UserDto;
 import com.example.dubbointerface.service.TestService;

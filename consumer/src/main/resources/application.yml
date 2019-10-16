@@ -9,7 +9,7 @@ spring:
       address: zookeeper://127.0.0.1:2181
     protocol:
       name: dubbo
-    scan: com.wll.dubbo.controller
+    scan: com.wll.dubbo.service.impl.dubbo
     qos:
       port: 22223
     consumer: 
