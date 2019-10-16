@@ -7,7 +7,11 @@ import org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfigurat
 import org.springframework.web.bind.annotation.CrossOrigin;
 
 import com.alibaba.dubbo.spring.boot.annotation.EnableDubboConfiguration;
-
+/**
+ * @Author wll
+ * @Date 2019/10/16 13:32
+ * @Description
+ **/
 
 @CrossOrigin//允许跨越访问
 @SpringBootApplication(exclude={DataSourceAutoConfiguration.class,HibernateJpaAutoConfiguration.class})

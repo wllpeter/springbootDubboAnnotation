@@ -42,17 +42,13 @@
 		</dependency>
  
         	<dependency>
-       			<groupId>com.example</groupId>
-				<artifactId>Interface</artifactId>
-				<version>0.0.1-SNAPSHOT</version>
+				<groupId>com.example</groupId>
+				<artifactId>dubbointerface</artifactId>
+				<version>0.0.1</version>
+<!--				<scope>system</scope>-->
+<!--				<systemPath>${project.basedir}/lib/dubbointerface-0.0.1.jar</systemPath>-->
        	</dependency>
-       	
-       	
-       	<dependency>
-       		<groupId>com.example</groupId>
-			<artifactId>Mapper</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-       	</dependency>
+
        	
        	<dependency>
 	        <groupId>org.springframework.boot</groupId>
@@ -67,6 +63,9 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+				<configuration>
+					<includeSystemScope>true</includeSystemScope>
+				</configuration>
 			</plugin>
 			<plugin>    
 		        <groupId>org.apache.maven.plugins</groupId>    
