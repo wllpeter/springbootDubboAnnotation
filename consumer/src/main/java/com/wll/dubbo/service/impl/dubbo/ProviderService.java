@@ -1,7 +1,6 @@
 package com.wll.dubbo.service.impl.dubbo;
 
 import com.alibaba.dubbo.config.annotation.Reference;
-import com.alibaba.dubbo.config.annotation.Service;
 import com.example.dubbointerface.dto.UserDto;
 import com.example.dubbointerface.service.TestService;
 import org.springframework.stereotype.Component;
